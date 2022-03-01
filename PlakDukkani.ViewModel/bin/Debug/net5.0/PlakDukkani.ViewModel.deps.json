@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PlakDukkani.ViewModel/1.0.0": {
+        "runtime": {
+          "PlakDukkani.ViewModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlakDukkani.ViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

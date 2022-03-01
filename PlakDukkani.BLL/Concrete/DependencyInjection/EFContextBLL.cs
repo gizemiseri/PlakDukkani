@@ -7,6 +7,7 @@ namespace PlakDukkani.BLL.Concrete.DependencyInjection
 {
     public static class EFContextBLL
     {
+        //extension Metot
         public static void AddScopeBLL(this IServiceCollection services)
         {
             services.AddScopeDAL();

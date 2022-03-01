@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v5.0": {
       "PlakDukkani.BLL/1.0.0": {
         "dependencies": {
-          "PlakDukkani.Core": "1.0.0",
           "PlakDukkani.DAL": "1.0.0",
-          "PlakDukkani.Model": "1.0.0"
+          "PlakDukkani.Model": "1.0.0",
+          "PlakDukkani.ViewModel": "1.0.0"
         },
         "runtime": {
           "PlakDukkani.BLL.dll": {}
@@ -1066,6 +1066,11 @@
         "runtime": {
           "PlakDukkani.Model.dll": {}
         }
+      },
+      "PlakDukkani.ViewModel/1.0.0": {
+        "runtime": {
+          "PlakDukkani.ViewModel.dll": {}
+        }
       }
     }
   },
@@ -1744,6 +1749,11 @@
       "sha512": ""
     },
     "PlakDukkani.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlakDukkani.ViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

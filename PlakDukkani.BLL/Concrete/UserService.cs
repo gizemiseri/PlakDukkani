@@ -10,34 +10,6 @@ namespace PlakDukkani.BLL.Concrete
 {
     class UserService : IUserBLL
     {
-        public int Delete(User entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int DeleteByID(int entityID)
-        {
-            throw new NotImplementedException();
-        }
-
-        public User Get(int entityID)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ICollection<User> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public User Insert(User entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public User Update(User entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

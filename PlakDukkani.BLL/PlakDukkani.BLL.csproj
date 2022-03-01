@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlakDukkani.Core\PlakDukkani.Core.csproj" />
     <ProjectReference Include="..\PlakDukkani.DAL\PlakDukkani.DAL.csproj" />
     <ProjectReference Include="..\PlakDukkani.Model\PlakDukkani.Model.csproj" />
+    <ProjectReference Include="..\PlakDukkani.ViewModel\PlakDukkani.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

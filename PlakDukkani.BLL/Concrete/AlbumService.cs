@@ -1,6 +1,8 @@
 ﻿using PlakDukkani.BLL.Abstract;
+using PlakDukkani.BLL.Concrete.ResultServiceBLL;
 using PlakDukkani.DAL.Abstract;
 using PlakDukkani.Model.Entities;
+using PlakDukkani.ViewModel.AlbumViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,36 +10,37 @@ using System.Text;
 
 namespace PlakDukkani.BLL.Concrete
 {
-    class AlbumService : IAlbumBLL
+    public class AlbumService : IAlbumBLL
     {
-        public int Delete(Album entity)
+        IAlbumDAL albumDAL;
+        public AlbumService(IAlbumDAL albumDAL)
         {
-            throw new NotImplementedException();
+            this.albumDAL = albumDAL;
         }
 
-        public int DeleteByID(int entityID)
+        public ResultService<List<SingleAlbumVM>> GetSingleAlbums()
         {
-            throw new NotImplementedException();
-        }
+            ResultService<List<SingleAlbumVM>> resultService = new ResultService<List<SingleAlbumVM>>();
+            try
+            {
+                List<SingleAlbumVM> singleAlbums = albumDAL.GetAll(a => a.IsActive, a => a.Artist)
+                        .OrderByDescending(a => a.CreatedDate).Take(12)
+                        .Select(album => new SingleAlbumVM
+                        {
+                            ID = album.ID,
+                            FullName = album.Artist.FullName,
+                            AlbumArtUrl = album.AlbumArtUrl,
+                            Price = album.Price,
+                            Title = album.Title
+                        }).ToList();
+                resultService.Data = singleAlbums;
+            }
+            catch (Exception ex)
+            {
+                resultService.AddError("exception", ex.Message);
+            }
 
-        public Album Get(int entityID)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ICollection<Album> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Album Insert(Album entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Album Update(Album entity)
-        {
-            throw new NotImplementedException();
+            return resultService;
         }
     }
 }

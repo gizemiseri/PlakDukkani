@@ -17,3 +17,5 @@ C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\obj\Debug\net5.0\PlakDu
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\obj\Debug\net5.0\PlakDukkani.BLL.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\obj\Debug\net5.0\ref\PlakDukkani.BLL.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\obj\Debug\net5.0\PlakDukkani.BLL.pdb
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\bin\Debug\net5.0\PlakDukkani.ViewModel.dll
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.BLL\bin\Debug\net5.0\PlakDukkani.ViewModel.pdb

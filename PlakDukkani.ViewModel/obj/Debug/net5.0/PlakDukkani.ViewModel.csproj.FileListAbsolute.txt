@@ -1,0 +1,12 @@
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\bin\Debug\net5.0\PlakDukkani.ViewModel.deps.json
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\bin\Debug\net5.0\PlakDukkani.ViewModel.dll
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\bin\Debug\net5.0\ref\PlakDukkani.ViewModel.dll
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\bin\Debug\net5.0\PlakDukkani.ViewModel.pdb
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.csprojAssemblyReference.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.AssemblyInfoInputs.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.AssemblyInfo.cs
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.dll
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\ref\PlakDukkani.ViewModel.dll
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.ViewModel\obj\Debug\net5.0\PlakDukkani.ViewModel.pdb

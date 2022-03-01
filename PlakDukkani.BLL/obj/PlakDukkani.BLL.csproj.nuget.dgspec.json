@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Core\\PlakDukkani.Core.csproj": {
-                "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Core\\PlakDukkani.Core.csproj"
-              },
               "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.DAL\\PlakDukkani.DAL.csproj": {
                 "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.DAL\\PlakDukkani.DAL.csproj"
               },
               "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Model\\PlakDukkani.Model.csproj": {
                 "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Model\\PlakDukkani.Model.csproj"
+              },
+              "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj"
               }
             }
           }
@@ -230,6 +230,60 @@
                 "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Core\\PlakDukkani.Core.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.211\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj",
+        "projectName": "PlakDukkani.ViewModel",
+        "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\gizem.iseri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gizem.iseri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

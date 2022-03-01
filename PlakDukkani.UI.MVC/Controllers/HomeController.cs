@@ -1,20 +1,38 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
+using PlakDukkani.BLL.Abstract;
+using PlakDukkani.BLL.Concrete.ResultServiceBLL;
+using PlakDukkani.ViewModel.AlbumViewModels;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PlakDukkani.UI.MVC.Controllers
 {
     public class HomeController : Controller
     {
-       
-        public IActionResult Index()
+        //SOLID D => Dependency Inversion 
+        //Dependency Injection Pattern 
+        //Ctor Dep Injection 
+        IAlbumBLL albumService;
+        public HomeController(IAlbumBLL albumService)
         {
-            return View();
+            this.albumService = albumService;
         }
 
-        public IActionResult AlbumStore() 
+        //IAlbumBLL albumservice = new AlbumService();
+        public IActionResult Index()
+        {
+            ResultService<List<SingleAlbumVM>> albumResult = albumService.GetSingleAlbums();
+            if (!albumResult.HasError)
+            {
+                return View(albumResult.Data);
+            }
+            else
+            {
+                ViewBag.Message = albumResult.Errors[0].ErrorMessage;
+                return View();
+            }
+        }
+
+        public IActionResult AlbumStore()
         {
             return View();
         }

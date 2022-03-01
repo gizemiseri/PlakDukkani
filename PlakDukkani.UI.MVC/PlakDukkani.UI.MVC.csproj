@@ -228,4 +228,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PlakDukkani.BLL\PlakDukkani.BLL.csproj" />
+    <ProjectReference Include="..\PlakDukkani.ViewModel\PlakDukkani.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>

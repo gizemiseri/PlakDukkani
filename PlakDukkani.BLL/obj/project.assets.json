@@ -1522,6 +1522,16 @@
         "runtime": {
           "bin/placeholder/PlakDukkani.Model.dll": {}
         }
+      },
+      "PlakDukkani.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PlakDukkani.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlakDukkani.ViewModel.dll": {}
+        }
       }
     }
   },
@@ -5749,13 +5759,18 @@
       "type": "project",
       "path": "../PlakDukkani.Model/PlakDukkani.Model.csproj",
       "msbuildProject": "../PlakDukkani.Model/PlakDukkani.Model.csproj"
+    },
+    "PlakDukkani.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../PlakDukkani.ViewModel/PlakDukkani.ViewModel.csproj",
+      "msbuildProject": "../PlakDukkani.ViewModel/PlakDukkani.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "PlakDukkani.Core >= 1.0.0",
       "PlakDukkani.DAL >= 1.0.0",
-      "PlakDukkani.Model >= 1.0.0"
+      "PlakDukkani.Model >= 1.0.0",
+      "PlakDukkani.ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5785,14 +5800,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Core\\PlakDukkani.Core.csproj": {
-              "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Core\\PlakDukkani.Core.csproj"
-            },
             "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.DAL\\PlakDukkani.DAL.csproj": {
               "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.DAL\\PlakDukkani.DAL.csproj"
             },
             "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Model\\PlakDukkani.Model.csproj": {
               "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.Model\\PlakDukkani.Model.csproj"
+            },
+            "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\gizem.iseri\\Desktop\\PlakDukkani\\PlakDukkani.ViewModel\\PlakDukkani.ViewModel.csproj"
             }
           }
         }

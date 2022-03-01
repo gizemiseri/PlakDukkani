@@ -19,4 +19,6 @@ namespace PlakDukkani.Core.DataAccess.EntityFramework
             return query;
         }
     }
+    //Include 
+    //Extension
 }
