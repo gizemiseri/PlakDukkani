@@ -16,9 +16,7 @@ namespace PlakDukkani.UI.MVC
         public void ConfigureServices(IServiceCollection services)
         {           
             services.AddControllersWithViews();
-            services.AddScopeBLL();      
-
-    
+            services.AddScopeBLL();          
         }
             
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

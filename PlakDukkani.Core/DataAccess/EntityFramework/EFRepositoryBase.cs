@@ -16,20 +16,26 @@ namespace PlakDukkani.Core.DataAccess.EntityFramework
         TContext context;
         public EFRepositoryBase(TContext context)
         {
-            this.context = context;        
+            this.context = context;
         }
 
         public TEntity Add(TEntity entity)
         {
             context.Entry(entity).State = EntityState.Added;
-            context.SaveChanges();
-            return entity;
+            if (context.SaveChanges() > 0)
+            {
+                return entity;
+            }
+            return null;
         }
         public TEntity Update(TEntity entity)
         {
             context.Entry(entity).State = EntityState.Modified;
-            context.SaveChanges();
-            return entity;
+            if (context.SaveChanges() > 0)
+            {
+                return entity;
+            }
+            return null;
         }
         public int Remove(TEntity entity)
         {
@@ -50,7 +56,7 @@ namespace PlakDukkani.Core.DataAccess.EntityFramework
             }
             else
             {
-                return context.Set<TEntity>().Where(filter).MyInclude(includes).ToList(); 
+                return context.Set<TEntity>().Where(filter).MyInclude(includes).ToList();
             }
         }
     }

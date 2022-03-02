@@ -19,8 +19,15 @@ using PlakDukkani.ViewModel.AlbumViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\Views\_ViewImports.cshtml"
+using PlakDukkani.ViewModel.UserViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d9fd0ab176be7958086aa9d3fec2b957628c68b9", @"/Views/Shared/_SingleAlbumArea.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6249cf4b3af92879ed1c882ff060c4cfaade8cbf", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db6c35f69189a31fe2dbbb4239da3bd5a1e994fb", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__SingleAlbumArea : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<SingleAlbumVM>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("alt", new global::Microsoft.AspNetCore.Html.HtmlString(""), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -58,7 +65,7 @@ using PlakDukkani.ViewModel.AlbumViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("        <!-- Single Album Area -->\r\n        <div class=\"col-12 col-sm-6 col-md-4 col-lg-2\">\r\n            <div class=\"single-album-area wow fadeInUp\" data-wow-delay=\"100ms\">\r\n                <div class=\"album-thumb\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d9fd0ab176be7958086aa9d3fec2b957628c68b93894", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d9fd0ab176be7958086aa9d3fec2b957628c68b94105", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

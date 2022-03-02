@@ -126,7 +126,7 @@
         @*@await Html.PartialAsync("_contactAreaBlack", false)*@
         <partial name="_contactAreaWhite" />
     }
-    else
+    else if (ViewData["Title"].ToString() != "Register")
     {
         <partial name="_contactAreaBlack" />
     }

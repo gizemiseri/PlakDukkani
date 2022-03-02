@@ -156,3 +156,4 @@ C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\bin\Debug\net5.0\Pla
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\bin\Debug\net5.0\PlakDukkani.Model.pdb
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\bin\Debug\net5.0\PlakDukkani.ViewModel.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\bin\Debug\net5.0\PlakDukkani.ViewModel.pdb
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Razor\Views\User\Register.cshtml.g.cs
