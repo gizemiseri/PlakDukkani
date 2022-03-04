@@ -21,6 +21,8 @@ namespace PlakDukkani.Core.DataAccess.EntityFramework
 
         public TEntity Add(TEntity entity)
         {
+            //context.Albums.Add(album);
+            //context.SaveChanges()
             context.Entry(entity).State = EntityState.Added;
             if (context.SaveChanges() > 0)
             {
@@ -45,6 +47,7 @@ namespace PlakDukkani.Core.DataAccess.EntityFramework
 
         public TEntity Get(Expression<Func<TEntity, bool>> filter, params Expression<Func<TEntity, object>>[] includes)
         {
+            //context.Albums.Where(a=>a.IsActive).Include(a=>a.Artist).SingleOrDefault();
             return context.Set<TEntity>().Where(filter).MyInclude(includes).SingleOrDefault();
         }
 

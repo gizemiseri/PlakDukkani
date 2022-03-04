@@ -26,7 +26,6 @@ namespace PlakDukkani.BLL.Concrete
                 throw new Exception("Password min 3 charakter");
             }
         }
-
         public ResultService<UserCreateVM> Insert(UserCreateVM user)
         {
             ResultService<UserCreateVM> userResult = new ResultService<UserCreateVM>();
@@ -48,15 +47,15 @@ namespace PlakDukkani.BLL.Concrete
                            ActivationCode = Guid.NewGuid()
                        }
                        );
-                if (addedUser == null) 
+                if (addedUser == null)
                 {
                     //throw new Exception("ekleme başarılı değil");
                     userResult.AddError("Ekleme Hatasi", "ekleme başarılı değil");
                     return userResult;
                 }
 
-                bool isSend =SendMailService.SendMail($"{addedUser.FirstName} {addedUser.LastName}", addedUser.Email, addedUser.ActivationCode);
-                if (!isSend) 
+                bool isSend = SendMailService.SendMail($"{addedUser.FirstName} {addedUser.LastName}", addedUser.Email, addedUser.ActivationCode);
+                if (!isSend)
                 {
                     userResult.AddError("mailHatasi", "mail gönderilemedi");
                     return userResult;
@@ -68,9 +67,48 @@ namespace PlakDukkani.BLL.Concrete
                 userResult.AddError("Exception", ex.Message);
             }
             return userResult;
+        }
+        public ResultService<bool> ActivedUser(Guid guid)
+        {
+            ResultService<bool> result = new ResultService<bool>();
+            try
+            {
+                User user = userRepository.Get(a => a.ActivationCode == guid && !a.IsActive);
+                if (user == null)
+                {
+                    result.AddError("null hatası", "Bu guide sahip user yok");
+                    return result;
+                }
 
+                user.IsActive = true;
+                User updatedUser = userRepository.Update(user);
 
+                if (updatedUser == null)
+                {
+                    result.AddError("update hatası", "Update başarılı değil");
+                    return result;
+                }
+                result.Data = true;
+                return result;
+            }
+            catch (Exception ex)
+            {
+                result.AddError("Exception", ex.Message);
+                return result;
+            }
         }
 
+        public ResultService<bool> CheckUserForLogin(string email, string password)
+        {
+            ResultService<bool> result = new ResultService<bool>();
+            User user = userRepository.Get(a => a.Email == email && a.Password == password && a.IsActive);
+            if (user == null)
+            {
+                result.AddError("Login Hatası", "Login Başarısız");
+                return result;
+            }
+            result.Data = true;
+            return result;
+        }
     }
 }

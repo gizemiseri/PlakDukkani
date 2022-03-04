@@ -1,8 +1,3 @@
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.csprojAssemblyReference.cache
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.AssemblyInfoInputs.cache
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.AssemblyInfo.cs
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.csproj.CoreCompileInputs.cache
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.DAL.deps.json
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.DAL.runtimeconfig.json
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.DAL.runtimeconfig.dev.json
@@ -13,6 +8,11 @@ C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDu
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.Model.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.Model.pdb
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\bin\Debug\net5.0\PlakDukkani.Core.pdb
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.csprojAssemblyReference.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.AssemblyInfoInputs.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.AssemblyInfo.cs
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.csproj.CoreCompileInputs.cache
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.csproj.CopyComplete
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\PlakDukkani.DAL.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.DAL\obj\Debug\net5.0\ref\PlakDukkani.DAL.dll

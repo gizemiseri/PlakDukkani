@@ -23,7 +23,7 @@ namespace PlakDukkani.BLL.Concrete
             ResultService<List<SingleAlbumVM>> resultService = new ResultService<List<SingleAlbumVM>>();
             try
             {
-                List<SingleAlbumVM> singleAlbums = albumDAL.GetAll(a => a.IsActive, a => a.Artist)
+                List<SingleAlbumVM> singleAlbums = albumDAL.GetAll(a => a.IsActive, a => a.Artist, a=>a.Genre)
                         .OrderByDescending(a => a.CreatedDate).Take(12)
                         .Select(album => new SingleAlbumVM
                         {

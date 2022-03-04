@@ -14,7 +14,7 @@ namespace PlakDukkani.DAL.Concrete.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.; Database=PlakDukkaniDb; uid=sa; pwd=Gizem123");        
+            optionsBuilder.UseSqlServer("Server=.; Database=PlakDukkaniDb; uid=sa; pwd=Gizem123");               
         }
 
         public DbSet<Album> Albums { get; set; }

@@ -9,6 +9,6 @@ namespace PlakDukkani.DAL.Concrete.Repository
     {
         public AlbumRepository(PlakDukkaniDbContext context) : base(context)
         {
-        }
+        }       
     }
 }

@@ -1,7 +1,3 @@
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.AssemblyInfoInputs.cache
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.AssemblyInfo.cs
-C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.csproj.CoreCompileInputs.cache
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\PlakDukkani.Model.deps.json
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\PlakDukkani.Model.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\ref\PlakDukkani.Model.dll
@@ -9,6 +5,10 @@ C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\Plak
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\PlakDukkani.Core.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\bin\Debug\net5.0\PlakDukkani.Core.pdb
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.csprojAssemblyReference.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.AssemblyInfoInputs.cache
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.AssemblyInfo.cs
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.csproj.CoreCompileInputs.cache
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.csproj.CopyComplete
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\PlakDukkani.Model.dll
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.Model\obj\Debug\net5.0\ref\PlakDukkani.Model.dll
