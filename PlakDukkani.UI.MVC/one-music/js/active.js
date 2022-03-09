@@ -119,7 +119,7 @@
         });
     }
 
-    // :: 5.0 Video Active Code
+     //:: 5.0 Video Active Code
     if ($.fn.magnificPopup) {
         $('.video--play--btn').magnificPopup({
             disableOn: 0,

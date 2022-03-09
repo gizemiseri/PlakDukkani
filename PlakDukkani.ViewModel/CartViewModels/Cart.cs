@@ -36,6 +36,6 @@ namespace PlakDukkani.ViewModel.CartViewModels
             }
         }
 
-        public decimal TotalQuantity => sepet.Values.Sum(a => a.Quantity);
+        public int TotalQuantity => sepet.Values.Sum(a => a.Quantity);
     }
 }

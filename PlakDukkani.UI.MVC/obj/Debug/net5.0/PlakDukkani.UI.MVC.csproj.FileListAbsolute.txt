@@ -161,3 +161,5 @@ C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Pla
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\PlakDukkani.UI.MVC.genruntimeconfig.cache
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Razor\Views\Home\AlbumDetail.cshtml.g.cs
 C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Razor\Views\Shared\_cartButton.cshtml.g.cs
+C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\obj\Debug\net5.0\Razor\Views\Shared\_cartTable.cshtml.g.cs

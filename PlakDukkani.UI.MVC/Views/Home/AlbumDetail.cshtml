@@ -1,7 +1,7 @@
 ﻿@model AlbumDetailVM
 
 @{
-    ViewData["Title"] = "AlbumDetail";
+    ViewData["Title"] = "AlbumDetail";  
 }
 
 <!-- ##### Featured Artist Area Start ##### -->
@@ -25,7 +25,8 @@
 
                     <p>@Model.ArtistFullName</p>
                     <div class="oneMusic-buttons-area mb-100">
-                        <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.ID" class="btn oneMusic-btn m-2">Sepete Ekle<i class="fa fa-cart-plus"></i></a>
+                        <a id="sepeteEkle" data-id="@Model.ID" class="btn oneMusic-btn m-2">Sepete Ekle<i class="fa fa-cart-plus"></i></a>
+                        @*<a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.ID" class="btn oneMusic-btn m-2">Sepete Ekle<i class="fa fa-cart-plus"></i></a>*@
 
                     </div>
                 </div>
@@ -34,3 +35,31 @@
     </div>
 </section>
 <!-- ##### Featured Artist Area End ##### -->
+
+@section scripts
+{
+    <script>
+        @*let id = @ViewContext.RouteData.Values["id"];*@
+
+        let buton = document.querySelector("#sepeteEkle");
+        let id = buton.getAttribute("data-id");
+        buton.addEventListener("click",AddCart)
+
+        
+        function AddCart() {
+            $.ajax({
+                type: "GET",
+                url: "/Cart/AddToCart/" + id,
+                //contentType: "application/json; charset=utf-8",
+                //data:               
+            })
+                .done(function (cartButtonPartial) {
+                    //istekten geri dönene yapılacak iş
+                    $(".cart-btn").html(cartButtonPartial);
+                })
+                .fail(function () {
+                    console.error("işlem başarısız")
+                });
+        }
+    </script>
+}
