@@ -26,8 +26,15 @@ using PlakDukkani.ViewModel.UserViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\Views\_ViewImports.cshtml"
+using PlakDukkani.ViewModel.CartViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cbb30c335a72b444b64d419900a2ab166e8c79b3", @"/Views/Shared/_contactAreaWhite.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db6c35f69189a31fe2dbbb4239da3bd5a1e994fb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d56660a6bc46ea6371146a3a0e4bd13c11dd8bc3", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__contactAreaWhite : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +81,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <!-- Contact Form Area -->
                 <div class=""contact-form-area"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbb30c335a72b444b64d419900a2ab166e8c79b34549", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbb30c335a72b444b64d419900a2ab166e8c79b34760", async() => {
                 WriteLiteral(@"
                         <div class=""row"">
                             <div class=""col-md-6 col-lg-4"">

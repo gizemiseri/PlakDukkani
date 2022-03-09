@@ -225,12 +225,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\PlakDukkani.BLL\PlakDukkani.BLL.csproj" />
+    <ProjectReference Include="..\PlakDukkani.ViewModel\PlakDukkani.ViewModel.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlakDukkani.BLL\PlakDukkani.BLL.csproj" />
-    <ProjectReference Include="..\PlakDukkani.ViewModel\PlakDukkani.ViewModel.csproj" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

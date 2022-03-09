@@ -2,6 +2,7 @@
 using PlakDukkani.BLL.Abstract;
 using PlakDukkani.BLL.Concrete.ResultServiceBLL;
 using PlakDukkani.ViewModel.AlbumViewModels;
+using PlakDukkani.ViewModel.Constraints;
 using System.Collections.Generic;
 
 namespace PlakDukkani.UI.MVC.Controllers
@@ -32,6 +33,16 @@ namespace PlakDukkani.UI.MVC.Controllers
             }
         }
 
+        public IActionResult AlbumDetail(int id)
+        {
+            ResultService<AlbumDetailVM> result = albumService.GetAlbumById(id);
+            if (result.HasError) 
+            {
+                ViewBag.Message = AlbumMessage.idHatasi;
+                return View();
+            }         
+            return View(result.Data);
+        }
         public IActionResult AlbumStore()
         {
             return View();

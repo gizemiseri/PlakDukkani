@@ -26,8 +26,15 @@ using PlakDukkani.ViewModel.UserViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\gizem.iseri\Desktop\PlakDukkani\PlakDukkani.UI.MVC\Views\_ViewImports.cshtml"
+using PlakDukkani.ViewModel.CartViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac1", @"/Views/Home/AlbumStore.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db6c35f69189a31fe2dbbb4239da3bd5a1e994fb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d56660a6bc46ea6371146a3a0e4bd13c11dd8bc3", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_AlbumStore : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/img/bg-img/a1.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -143,7 +150,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item t c p"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac114353", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac114564", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -171,7 +178,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item s e q"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac115938", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac116149", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -199,7 +206,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item w f r"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac117524", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac117735", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -227,7 +234,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item t g u"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac119104", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac119315", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -255,7 +262,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item d h v"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac120689", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac120900", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -283,7 +290,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item t i x"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac122272", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac122483", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -311,7 +318,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item b j y"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac123860", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac124071", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -339,7 +346,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item a k z"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac125438", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac125649", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -367,7 +374,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item w l number"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac127029", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac127240", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -395,7 +402,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item d m"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac128607", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac128818", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -423,7 +430,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item t n"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac130189", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac130400", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -451,7 +458,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12 col-sm-4 col-md-3 col-lg-2 single-album-item b o"">
                 <div class=""single-album"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac131776", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac131987", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -489,7 +496,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-album-area"">
                     <div class=""album-thumb"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac133620", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac133831", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -527,7 +534,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-album-area"">
                     <div class=""album-thumb"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac135684", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac135895", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -557,7 +564,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-album-area"">
                     <div class=""album-thumb"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac137324", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac137535", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -587,7 +594,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-album-area"">
                     <div class=""album-thumb"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac138969", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac139180", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -631,7 +638,7 @@ using PlakDukkani.ViewModel.UserViewModels;
             <div class=""col-12"">
                 <div class=""adds"">
                     <a href=""#"">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac141009", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac141220", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -662,7 +669,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-song-area mb-30 d-flex flex-wrap align-items-end"">
                     <div class=""song-thumbnail"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac142627", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac142838", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -684,7 +691,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                         </div>
                         <audio preload=""auto"" controls>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac144046", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac144257", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -708,7 +715,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-song-area mb-30 d-flex flex-wrap align-items-end"">
                     <div class=""song-thumbnail"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac145429", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac145640", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -730,7 +737,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                         </div>
                         <audio preload=""auto"" controls>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac146848", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac147059", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -754,7 +761,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-song-area mb-30 d-flex flex-wrap align-items-end"">
                     <div class=""song-thumbnail"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac148231", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac148442", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -776,7 +783,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                         </div>
                         <audio preload=""auto"" controls>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac149650", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac149861", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -800,7 +807,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                 <div class=""single-song-area mb-30 d-flex flex-wrap align-items-end"">
                     <div class=""song-thumbnail"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac151033", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac151244", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -822,7 +829,7 @@ using PlakDukkani.ViewModel.UserViewModels;
                         </div>
                         <audio preload=""auto"" controls>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac152452", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b4f49aa84ebb0f37c3dbe01e45a86f4dad49dac152663", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -16,7 +16,8 @@ namespace PlakDukkani.UI.MVC
         public void ConfigureServices(IServiceCollection services)
         {           
             services.AddControllersWithViews();
-            services.AddScopeBLL();          
+            services.AddScopeBLL();
+            services.AddSession();
         }
             
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -26,6 +27,7 @@ namespace PlakDukkani.UI.MVC
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSession();
             app.UseRouting();
             app.UseStaticFiles();
 

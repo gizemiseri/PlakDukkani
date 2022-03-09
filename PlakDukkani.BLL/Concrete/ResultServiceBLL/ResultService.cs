@@ -11,7 +11,7 @@ namespace PlakDukkani.BLL.Concrete.ResultServiceBLL
         public ResultService()
         {
             Errors = new List<ErrorItem>();
-        }
+        }        
         public bool HasError { get; set; }
         public List<ErrorItem> Errors { get; set; }
         public T Data { get; set; }
