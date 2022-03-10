@@ -127,7 +127,13 @@
             mainClass: 'mfp-fade',
             removalDelay: 160,
             preloader: true,
-            fixedContentPos: false
+            fixedContentPos: false,
+            callbacks:
+            {
+                close: function () {
+                    window.location.reload();
+                }
+            }
         });
     }
 

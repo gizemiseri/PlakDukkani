@@ -139,7 +139,7 @@
         @*@await Html.PartialAsync("_contactAreaBlack", false)*@
         <partial name="_contactAreaWhite" />
     }
-    else if (ViewData["Title"].ToString() != "Register")
+    else if (ViewData["Title"].ToString() != "Register" && ViewData["Title"].ToString() != "CartIndex")
     {
         <partial name="_contactAreaBlack" />
     }
@@ -196,5 +196,7 @@
             $(".cart-btn").html(cartButtonPartial);
         });
     </script>*@
+
+   
 </body>
 </html>

@@ -52,20 +52,17 @@ namespace PlakDukkani.UI.MVC.Controllers
             return PartialView("_cartButton", cart.TotalQuantity);
         }
 
-        //public IActionResult GetCartButton() 
-        //{
-        //    Cart cart = new Cart();
-        //    if (HttpContext.Session.Get<Cart>("cart") != null)
-        //    {
-        //        cart = HttpContext.Session.Get<Cart>("cart");
-        //    }
-        //    return PartialView("_cartButton", cart.TotalQuantity);
-        //}
-       
         public IActionResult UpdateToCart(int id, short quantity)
         {
             Cart cart = HttpContext.Session.Get<Cart>("cart");
             cart.Update(id, quantity);
+            HttpContext.Session.Set<Cart>("cart", cart);
+            return PartialView("_cartTable", cart);
+        }
+        public IActionResult DeleteToCart(int id)
+        {
+            Cart cart = HttpContext.Session.Get<Cart>("cart");
+            cart.Delete(id);
             HttpContext.Session.Set<Cart>("cart", cart);
             return PartialView("_cartTable", cart);
         }

@@ -55,7 +55,9 @@
             })
                 .done(function (cartButtonPartial) {
                     //istekten geri dönene yapılacak iş
+                    console.log("aaaa")
                     $(".cart-btn").html(cartButtonPartial);
+                    $.magnificPopup.close()
                 })
                 .fail(function () {
                     console.error("işlem başarısız")
